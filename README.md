@@ -1,10 +1,40 @@
 # final_project_for_bootcamp
 
-A new Flutter project.
+A simple and efficient note-taking app built with Flutter. The app integrates Firebase Authentication and Firestore for secure user authentication and cloud-based storage of notes.
 
-## Getting Started
+Features
 
-This project is a starting point for a Flutter application.
+User Authentication: Sign up and log in with Firebase Authentication.
+
+Create Notes: Users can add new notes with text content.
+
+Edit & Delete Notes: Modify or remove existing notes.
+
+Cloud Storage: All notes are stored in Firestore, ensuring access across devices.
+
+State Management: Uses Provider for managing app state efficiently.
+
+Tech Stack
+Flutter (Dart 3.0)
+
+Firebase (Authentication & Firestore)
+
+Provider (State Management)
+
+Folder Structure
+lib/
+|-- main.dart
+|-- models/
+|   |-- note_model.dart
+|-- providers/
+|   |-- auth_provider.dart
+|   |-- notes_provider.dart
+|-- screens/
+|   |-- home_screen.dart
+|   |-- login_screen.dart
+|   |-- note_editor_screen.dart
+|-- widgets/
+|   |-- note_card.dart
 
 A few resources to get you started if this is your first Flutter project:
 

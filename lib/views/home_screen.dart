@@ -3,7 +3,6 @@ import 'package:final_project_for_bootcamp/view_model/note_viewmodel.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:final_project_for_bootcamp/views/add_edit_note_screen.dart';
-import 'package:final_project_for_bootcamp/model/note.dart';
 
 class HomeScreen extends StatefulWidget {
   final String userId;
